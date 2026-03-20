@@ -1,7 +1,7 @@
-```markdown
+
 # 🇮🇳 Indian Sign Language Recognition System
 
-## 📌 Overview
+##  Overview
 This project focuses on building an **image classification system** to recognize **Indian Sign Language (ISL)** gestures using machine learning and deep learning techniques.
 
 The workflow includes:
@@ -15,19 +15,19 @@ The goal is to explore how effectively different algorithms can classify hand ge
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- 📊 Comprehensive **EDA (Exploratory Data Analysis)**
-- 🧠 Implementation of **6 different models**
-- 🔍 Feature engineering for traditional ML models
-- 🖼️ Image preprocessing and normalization
-- 🔄 Data augmentation for improved generalization
-- 📈 Model comparison using accuracy and visualizations
-- 📉 Confusion matrix and classification report
+-  Comprehensive **EDA (Exploratory Data Analysis)**
+-  Implementation of **6 different models**
+-  Feature engineering for traditional ML models
+-  Image preprocessing and normalization
+-  Data augmentation for improved generalization
+-  Model comparison using accuracy and visualizations
+-  Confusion matrix and classification report
 
 ---
 
-## 🧠 Models Implemented
+##  Models Implemented
 
 ### 🔹 Classical Machine Learning Models
 - Decision Tree
@@ -35,31 +35,27 @@ The goal is to explore how effectively different algorithms can classify hand ge
 - Random Forest
 - Support Vector Machine (SVM)
 
-### 🔹 Deep Learning Models
+###  Deep Learning Models
 - Basic CNN
 - Deep CNN
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 
-├── dataset/
-├── notebooks/
-│   └── Indi_Sign_Lang_Prediction.ipynb
-├── outputs/
-│   ├── plots/
-│   └── model_results/
-├── README.md
+├── dataset/ <br>
+├── Indi_Sign_Lang_Prediction.ipynb <br>
+├── README.md <br>
 
 ```
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
-- Python 🐍
+- Python 
 - NumPy, Pandas
 - Matplotlib, Seaborn
 - OpenCV
@@ -68,7 +64,7 @@ The goal is to explore how effectively different algorithms can classify hand ge
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 The project includes multiple visual analyses:
 
@@ -86,7 +82,7 @@ These help in:
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 - Image resizing (uniform dimensions)
 - Normalization (0–1 scaling)
@@ -95,7 +91,7 @@ These help in:
 
 ---
 
-## 🔄 Data Augmentation
+##  Data Augmentation
 
 Applied to improve generalization:
 - Rotation
@@ -105,7 +101,7 @@ Applied to improve generalization:
 
 ---
 
-## 🏗️ Model Training
+##  Model Training
 
 ### Classical ML:
 - Images flattened into 1D vectors
@@ -118,7 +114,7 @@ Applied to improve generalization:
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Model         | Accuracy |
 |--------------|---------|
@@ -131,16 +127,16 @@ Applied to improve generalization:
 
 ---
 
-## 🏆 Key Insights
+## Key Insights
 
-- ✅ **SVM achieved the highest accuracy (99.7%)**
-- ✅ Classical ML models outperformed CNN models in this case
-- ✅ Dataset size and feature representation significantly affect deep learning performance
-- ✅ Random Forest and KNN also showed strong results (>98%)
+-  **SVM achieved the highest accuracy (99.7%)**
+-  Classical ML models outperformed CNN models in this case
+-  Dataset size and feature representation significantly affect deep learning performance
+-  Random Forest and KNN also showed strong results (>98%)
 
 ---
 
-## 📉 Evaluation Metrics
+##  Evaluation Metrics
 
 - Accuracy Score
 - Confusion Matrix
@@ -148,7 +144,7 @@ Applied to improve generalization:
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - Model comparison bar chart
 - Confusion matrix heatmap
@@ -156,7 +152,7 @@ Applied to improve generalization:
 
 ---
 
-## 💡 Conclusion
+##  Conclusion
 
 This project demonstrates that:
 
@@ -169,17 +165,17 @@ The system highlights the potential of AI in:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
-- 📦 Use larger and more diverse datasets
-- ⚡ Apply transfer learning (ResNet, MobileNet)
-- 🎥 Real-time gesture detection using webcam
-- 🌐 Deploy as a web/mobile application
-- 🔊 Convert gestures into speech/text output
+-  Use larger and more diverse datasets
+-  Apply transfer learning (ResNet, MobileNet)
+-  Real-time gesture detection using webcam
+-  Deploy as a web/mobile application
+-  Convert gestures into speech/text output
 
 ---
 
-## 📌 How to Run
+##  How to Run
 
 1. Clone the repository:
 ```
@@ -204,7 +200,7 @@ jupyter notebook
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 Contributions are welcome! Feel free to:
 - Open issues
@@ -213,22 +209,15 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and available under the MIT License.
 
 ---
 
-## 🙌 Acknowledgment
+##  Acknowledgment
 
 This project is inspired by the need to build **inclusive AI systems** that improve accessibility for the deaf and hard-of-hearing community.
 
 ```
 
----
-
-If you want, I can also:
-
-* Convert this into a **GitHub-ready polished version with badges**
-* Add **project screenshots / diagrams**
-* Or make a **resume-friendly project description** 🚀
