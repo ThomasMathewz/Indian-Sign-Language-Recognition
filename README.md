@@ -1,5 +1,5 @@
 
-# 🇮🇳 Indian Sign Language Recognition System
+# Indian Sign Language Recognition System
 
 ##  Overview
 This project focuses on building an **image classification system** to recognize **Indian Sign Language (ISL)** gestures using machine learning and deep learning techniques.
@@ -29,7 +29,7 @@ The goal is to explore how effectively different algorithms can classify hand ge
 
 ##  Models Implemented
 
-### 🔹 Classical Machine Learning Models
+###  Classical Machine Learning Models
 - Decision Tree
 - K-Nearest Neighbors (KNN)
 - Random Forest
@@ -152,16 +152,18 @@ Applied to improve generalization:
 
 ---
 
-##  Conclusion
+## Conclusion
 
-This project demonstrates that:
+Among all the models tested, **Support Vector Machine (SVM)** achieved the best performance with the highest accuracy (~99.7%), making it the most effective model for this dataset.
 
-> Classical machine learning models can outperform deep learning models on moderate-sized image datasets when proper feature engineering is applied.
+Other classical models like **Random Forest** and **KNN** also performed exceptionally well, achieving accuracy above 98%, showing strong capability in handling image-based classification after feature flattening.
 
-The system highlights the potential of AI in:
-- Assistive communication tools
-- Real-time gesture recognition systems
-- Accessibility technology
+In contrast, **CNN and Deep CNN models** showed comparatively lower performance (around 85–90%). This is likely due to the limited dataset size and lack of complex feature learning conditions required for deep learning models.
+
+###  Key Takeaways:
+- Classical ML models outperformed deep learning models in this project.
+- SVM proved to be the most reliable and accurate model.
+- Dataset size and feature representation play a critical role in model performance.
 
 ---
 
@@ -218,6 +220,4 @@ This project is open-source and available under the MIT License.
 ##  Acknowledgment
 
 This project is inspired by the need to build **inclusive AI systems** that improve accessibility for the deaf and hard-of-hearing community.
-
-```
 
